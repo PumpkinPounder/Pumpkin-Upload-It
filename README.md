@@ -1,6 +1,6 @@
-Coming soon
+# COMING SOON
 
-# Pumpkin Upload It v7.5.8
+## Pumpkin Upload It v7.5.8
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
