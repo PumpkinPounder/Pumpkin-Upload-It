@@ -1,4 +1,4 @@
-# Pumpkin Uploader v7.5.8
+# 🎃 Pumpkin Upload It v7.5.8
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
@@ -13,7 +13,7 @@
 
 > ⚠ **Originally built for bitporn.eu**
 >
-> Pumpkin Uploader was built for the **BitPorn** upload workflow.
+> Pumpkin Upload It was built for the **BitPorn** upload workflow.
 >
 > It creates torrent files, prepares BitPorn BBCode descriptions, adds cover/banner/description images, generates a release-info image, and uploads directly through the BitPorn API.
 
@@ -21,7 +21,7 @@
 
 # 📌 Overview
 
-Pumpkin Uploader is a Windows Python GUI app for preparing and uploading torrent packs.
+Pumpkin Upload It is a Windows Python GUI app for preparing and uploading torrent packs.
 
 It is designed for uploaders who already have a folder prepared with videos and a `scr` folder containing preview images or animated WEBP previews.
 
@@ -72,7 +72,7 @@ Anonymous upload is forced on by default.
 
 ## 🧲 Built-in Torrent Creator
 
-Pumpkin Uploader can create a `.torrent` file from:
+Pumpkin Upload It can create a `.torrent` file from:
 
 - A full folder
 - Selected files
@@ -91,7 +91,7 @@ The torrent creator:
 
 ## 📁 SCR Folder Auto-Loading
 
-When a folder contains a `scr` folder, Pumpkin Uploader can automatically load upload images.
+When a folder contains a `scr` folder, Pumpkin Upload It can automatically load upload images.
 
 Expected example:
 
@@ -117,9 +117,9 @@ The app uses:
 
 ## 🎬 Works with Pumpkin Thumb It
 
-Pumpkin Uploader is designed to work alongside **Pumpkin Thumb It**.
+Pumpkin Upload It is designed to work alongside **Pumpkin Thumb It**.
 
-Pumpkin Thumb It can generate the screenshot images and WEBP previews, then Pumpkin Uploader can pick them up from the `scr` folder and place them into the BitPorn upload layout.
+Pumpkin Thumb It can generate the screenshot images and WEBP previews, then Pumpkin Upload It can pick them up from the `scr` folder and place them into the BitPorn upload layout.
 
 Typical workflow:
 
@@ -130,7 +130,7 @@ Creates screenshots / WEBP previews
         ↓
 Saved into the scr folder
         ↓
-Pumpkin Uploader loads them into the upload description
+Pumpkin Upload It loads them into the upload description
 ```
 
 This keeps the thumbnail/screenshot creation separate from the torrent upload process, while still making both tools work together cleanly.
@@ -139,7 +139,7 @@ This keeps the thumbnail/screenshot creation separate from the torrent upload pr
 
 ## 🖼 Automatic Release Info Image
 
-Pumpkin Uploader generates a transparent PNG release-info image before upload.
+Pumpkin Upload It generates a transparent PNG release-info image before upload.
 
 The image includes:
 
@@ -175,7 +175,7 @@ The layout is built to avoid broken BBCode nesting and stray closing tags.
 
 ## 🔎 Pornolab Search and Scraping
 
-Pumpkin Uploader can search and scrape Pornolab pages.
+Pumpkin Upload It can search and scrape Pornolab pages.
 
 It can pull:
 
@@ -213,7 +213,7 @@ This helps keep BitPorn upload keywords readable by translating common Pornolab 
 
 ## 🎞 Media Scanning
 
-Pumpkin Uploader can scan video files for:
+Pumpkin Upload It can scan video files for:
 
 - Resolution group
 - Exact resolution
@@ -266,13 +266,7 @@ ffprobe -version
 Clone or download the repo, then run the Python file:
 
 ```bash
-python "Torrent_Upload_App_v7.5.8_OnlyFans_Fansly_Auto_Detect.py"
-```
-
-If you rename the file, run the renamed file instead:
-
-```bash
-python "Pumpkin_Uploader.py"
+python "Pumpkin_Upload_It.py"
 ```
 
 ---
@@ -317,7 +311,7 @@ Performer Name/
     └── center5.webp
 ```
 
-Then in Pumpkin Uploader:
+Then in Pumpkin Upload It:
 
 1. Click **Create Folder**
 2. Select the performer folder
@@ -325,7 +319,7 @@ Then in Pumpkin Uploader:
 4. Let the app auto-load the `scr` images
 5. Let it scan media information
 6. Check the title, category, resolution, and keywords
-7. Click **Upload with Pumpkin Uploader**
+7. Click **Upload with Pumpkin Upload It**
 
 ---
 
