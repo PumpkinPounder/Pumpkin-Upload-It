@@ -388,11 +388,6 @@ Use it when you want the upload description to include the Pumpkin Approved badg
 
 ---
 
-
-```
-
-If you use Pornolab cookies, place the cookie file beside the EXE.
-
 ---
 
 # 🧾 Version Notes
