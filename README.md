@@ -302,19 +302,6 @@ BITPORN_API_TOKEN = "PUT_YOUR_TOKEN_HERE"
 
 ---
 
-# 🔐 Security Warning
-
-Do **not** commit your real API token to a public GitHub repo.
-
-Before pushing to GitHub:
-
-- Replace your token with a placeholder
-- Or load it from a local config file
-- Or load it from an environment variable
-- Or keep the repository private
-
-A leaked API token should be treated as compromised.
-
 ---
 
 # 📦 Suggested Folder Workflow
