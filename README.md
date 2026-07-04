@@ -388,19 +388,7 @@ Use it when you want the upload description to include the Pumpkin Approved badg
 
 ---
 
-# 🛠 Building an EXE
 
-You can package the app with PyInstaller:
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile --windowed "Torrent_Upload_App_v7.5.8_OnlyFans_Fansly_Auto_Detect.py"
-```
-
-The EXE will be created inside:
-
-```text
-dist/
 ```
 
 If you use Pornolab cookies, place the cookie file beside the EXE.
