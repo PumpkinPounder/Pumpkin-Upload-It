@@ -35,11 +35,10 @@ The app can:
 - Opt in to the moderation queue
 - Auto-build a clean BBCode description
 - Auto-load cover, banner, and screenshots from a `scr` folder
+- Work alongside **Pumpkin Thumb It** by using its generated screenshots and WEBP previews
 - Generate a transparent release-info PNG
 - Scan media resolution, codec, runtime, size, and video count
 - Scrape Pornolab pages for keywords and time-period information
-- Auto-detect **OnlyFans** and **Fansly** pack labels only
-- Add manual torrent-name prefix buttons for common pack types
 
 ---
 
@@ -115,6 +114,27 @@ The app uses:
 - `center1.webp` to `center5.webp` as screenshots
 - The parent folder name as the upload name
 
+
+## 🎬 Works with Pumpkin Thumb It
+
+Pumpkin Uploader is designed to work alongside **Pumpkin Thumb It**.
+
+Pumpkin Thumb It can generate the screenshot images and WEBP previews, then Pumpkin Uploader can pick them up from the `scr` folder and place them into the BitPorn upload layout.
+
+Typical workflow:
+
+```text
+Pumpkin Thumb It
+        ↓
+Creates screenshots / WEBP previews
+        ↓
+Saved into the scr folder
+        ↓
+Pumpkin Uploader loads them into the upload description
+```
+
+This keeps the thumbnail/screenshot creation separate from the torrent upload process, while still making both tools work together cleanly.
+
 ---
 
 ## 🖼 Automatic Release Info Image
@@ -144,7 +164,6 @@ The app builds a BitPorn-ready BBCode layout with:
 - Header image
 - Torrent title
 - Cover image
-- Optional Pumpkin Approved image block
 - Release-info image
 - Centred screenshots spoiler
 - Layout notice footer
@@ -153,30 +172,6 @@ The layout is built to avoid broken BBCode nesting and stray closing tags.
 
 ---
 
-## 🎛 Name Prefix Buttons
-
-The app includes quick buttons for common torrent-name prefixes:
-
-```text
-[Actress Pack]
-[Actress Double Pack]
-[Redhead Actress Pack]
-[OnlyFans Pack]
-[Fansly Pack]
-```
-
-Only these two are auto-detected:
-
-```text
-[OnlyFans Pack]
-[Fansly Pack]
-```
-
-All other prefixes stay manual.
-
-This keeps performer-only folder names clean while still allowing OnlyFans and Fansly packs to be labelled automatically.
-
----
 
 ## 🔎 Pornolab Search and Scraping
 
@@ -330,8 +325,7 @@ Then in Pumpkin Uploader:
 4. Let the app auto-load the `scr` images
 5. Let it scan media information
 6. Check the title, category, resolution, and keywords
-7. Toggle any pack prefix if needed
-8. Click **Upload with Pumpkin Uploader**
+7. Click **Upload with Pumpkin Uploader**
 
 ---
 
@@ -380,27 +374,6 @@ Other
 
 ---
 
-# 🧡 Pumpkin Approved Toggle
-
-The **Pumpkin Approved** toggle adds a special image block into the upload layout.
-
-Use it when you want the upload description to include the Pumpkin Approved badge.
-
----
-
----
-
-# 🧾 Version Notes
-
-## v7.5.8
-
-- Added automatic name-prefix detection for OnlyFans and Fansly only
-- Fixed spoiler centring and stray BBCode tag cleanup
-- Updated release-info image layout to the GENERAL / MEDIA / STATS design
-- Added Pumpkin Approved toggle image block
-- Fixed release-info header lines
-- Increased release-info display size
-- Added name/description prefix toggle buttons
 
 ---
 
